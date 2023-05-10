@@ -48,11 +48,11 @@ export default class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="Michael Rodrigues, programador, web, websites, Desenvolvedor Web Frontend, developer, desenvolvimento, programação, frontend, front-end, HTML, CSS, JavaScript, ReactJS, NextJS, website, portfolio, Profissional de TI, Desenvolvimento de Sites"
+            content="Michael Rodrigues, programador, web, websites, Desenvolvedor Back-end, developer, desenvolvimento, programação, back-end, front-end, Node, express, mongodb JavaScript, ReactJS, NextJS, website, portfolio, Profissional de TI"
           />
           <meta
             name="description"
-            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Front-end. Confira meus projetos construídos."
+            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Back-end. Confira meus projetos construídos."
           />
           <meta name="robots" content="index, follow" />
           <meta name="rating" content="general" />
@@ -85,7 +85,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Front-End. Confira meus projetos construídos."
+            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Back-end. Confira meus projetos construídos."
           />
 
           <meta property="og:image" content="/ogimage.png" />
