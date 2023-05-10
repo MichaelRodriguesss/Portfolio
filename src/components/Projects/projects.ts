@@ -7,7 +7,7 @@ const projects = [
     type: "Website",
     icon: "/projects/portfolio/home.webp",
     github: "https://github.com/MichaelRodriguesss/Portfolio",
-    web: "https://michael.vercel.app/",
+    web: "https://portfolio-n3gcija1u-michaelrodrigues.vercel.app/",
     description:
       "Meu portfólio criado com o objetivo de mostrar meus projetos ao longo da minha carreira.",
     tags: [

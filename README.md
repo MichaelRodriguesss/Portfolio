@@ -12,7 +12,7 @@
 
 Meu portfólio criado com o objetivo de mostrar meus projetos.
 
-- Website: [Michael.vercel.app](https://Michael.vercel.app/)
+- Website: [Michael.vercel.app](https://portfolio-n3gcija1u-michaelrodrigues.vercel.app/)
 
 ## 🚀 Tecnologias
 
@@ -27,7 +27,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Google Fonts](https://fonts.google.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Phosphor Icons](https://phosphoricons.com/)
-- [Form Submit](https://formsubmit.co/)
 
 ## 💻 Autor<br>
 

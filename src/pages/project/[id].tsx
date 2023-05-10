@@ -1,9 +1,5 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Link from "next/link";
-//import React from 'react'
-import ReactPlayer from "react-player";
 import projects from "../../components/Projects/projects";
 import { Footer } from "../../components/Footer";
 
@@ -15,16 +11,11 @@ import {
   PrintContainer,
   Print,
 } from "../../styles/project";
-import { ButtonPrimary, ButtonSecondary, Title } from "../../styles/styles";
+import { ButtonPrimary, Title } from "../../styles/styles";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import {
-  ArrowLeft,
-  ChatCenteredText,
-  Image,
-  YoutubeLogo,
-} from "phosphor-react";
+import { ChatCenteredText, Image } from "phosphor-react";
 
 interface Tag {
   id: string;
@@ -181,7 +172,6 @@ export default function Projeto({ project }: ProjectProps) {
           </Print>
         </PrintContainer>
       </ProjectContainer>
-
       <Footer />
     </>
   );
