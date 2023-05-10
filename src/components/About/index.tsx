@@ -14,14 +14,6 @@ export function About() {
         </span>
       </Title>
       <AboutContainer>
-        {/* <div className="AboutImg">
-          <img
-            className="AboutImg"
-            src="/Evander.webp"
-            alt="Imagem de perfil Evander"
-          />
-        </div> */}
-
         <div className="aboutContent">
           <div className="aboutDescription">
             <p>

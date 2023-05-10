@@ -1,4 +1,11 @@
-import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from "next/document";
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  DocumentContext,
+  DocumentInitialProps,
+} from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
@@ -11,7 +18,8 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
+          enhanceApp: (App) => (props) =>
+            sheet.collectStyles(<App {...props} />),
         });
 
       const initialProps = await Document.getInitialProps(ctx);
@@ -22,7 +30,7 @@ export default class MyDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
           </>
-        )
+        ),
       };
     } finally {
       sheet.seal();
@@ -33,18 +41,18 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-        <meta charSet="utf-8" />
+          <meta charSet="utf-8" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
           />
           <meta
             name="keywords"
-            content="Evander Inacio, programador, web, websites, Desenvolvedor Web Frontend, developer, desenvolvimento, programação, frontend, front-end, HTML, CSS, JavaScript, ReactJS, NextJS, website, portfolio, Profissional de TI, Desenvolvimento de Sites"
+            content="Michael Rodrigues, programador, web, websites, Desenvolvedor Web Frontend, developer, desenvolvimento, programação, frontend, front-end, HTML, CSS, JavaScript, ReactJS, NextJS, website, portfolio, Profissional de TI, Desenvolvimento de Sites"
           />
           <meta
             name="description"
-            content="Meu nome é Evander Inácio sou um Desenvolvedor Front-end. Confira meus projetos construídos."
+            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Front-end. Confira meus projetos construídos."
           />
           <meta name="robots" content="index, follow" />
           <meta name="rating" content="general" />
@@ -58,26 +66,34 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="canonical" href="https://evander.vercel.app" />
+          <link
+            rel="canonical"
+            href="https://portfolio-p3jgsrvpo-michaelrodrigues.vercel.app/"
+          />
           <meta name="theme-color" content="#00d9ff" />
-          <meta name="author" content="Evander Inácio" />
-          <meta name="creator" content="Evander Inácio" />
-          <meta name="copyright" content="© 2022 Evander Inácio" />
+          <meta name="author" content="Michael Rodrigues" />
+          <meta name="creator" content="Michael Rodrigues" />
+          <meta name="copyright" content="© 2023 Michael Rodrigues" />
 
-          <meta property="og:site_name" content="Portfolio - Evander Inácio" />
+          <meta
+            property="og:site_name"
+            content="Portfolio - Michael Rodrigues"
+          />
           <meta
             property="og:title"
-            content="Evander Inácio | Desenvolvedor"
+            content="Michael Rodrigues | Desenvolvedor"
           />
           <meta
             property="og:description"
-            content="Meu nome é Evander Inácio sou um Desenvolvedor Front-End. Confira meus projetos construídos."
+            content="Meu nome é Michael Rodrigues sou um Desenvolvedor Front-End. Confira meus projetos construídos."
           />
 
           <meta property="og:image" content="/ogimage.png" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://evander.vercel.app" />
-          <meta name="twitter:image" content="/ogimage.png" />
+          <meta
+            property="og:url"
+            content="https://portfolio-p3jgsrvpo-michaelrodrigues.vercel.app/"
+          />
 
           <link rel="icon" href="/icon.svg" />
         </Head>
