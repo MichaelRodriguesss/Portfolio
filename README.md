@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
       <a href="https://github.com/MichaelRodriguesss">
        <div>
         <sub>
-          <b>Michael Rodriguesss</b>
+          <b>Michael Rodrigues</b>
         </sub>
         </div>
       </a>
