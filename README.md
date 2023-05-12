@@ -10,7 +10,7 @@
 
 ## 📝 Descrição
 
-Meu portfólio criado com o objetivo de mostrar meus projetos.
+Meu portfólio criado com o objetivo de mostrar meus projetos e experiência.
 
 - Website: [Michael.vercel.app](https://portfolio-n3gcija1u-michaelrodrigues.vercel.app/)
 
@@ -46,4 +46,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/MichaelRodriguesss/">Michael Rodrigues</a> ☕</h3>
+  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/MichaelRodriguesss/">Michael Rodrigues</a>☕</h3>
