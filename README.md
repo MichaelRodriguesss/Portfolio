@@ -46,4 +46,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/MichaelRodriguesss/">Michael Rodrigues</a>☕</h3>
+  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/MichaelRodriguesss/">Michael Rodrigues</a>☕☕☕</h3>
