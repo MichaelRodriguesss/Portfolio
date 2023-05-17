@@ -16,7 +16,7 @@ Meu portfólio criado com o objetivo de mostrar meus projetos e experiência.
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes Tecnologias:
 
 - NextJS
 - TypeScript
