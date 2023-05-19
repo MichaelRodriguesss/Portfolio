@@ -10,7 +10,7 @@
 
 ## 📝 Descrição
 
-Meu portfólio criado com o objetivo de mostrar meus Projetos e experiência.
+Meu portfólio Criado com o objetivo de mostrar meus Projetos e experiência
 
 - Website: [Michael.vercel.app](https://portfolio-n3gcija1u-michaelrodrigues.vercel.app/)
 
