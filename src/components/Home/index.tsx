@@ -18,7 +18,7 @@ export function HomeHero() {
           <h2>
             <Typewriter
               options={{
-                strings: ["Back-end Developer.", "Desenvolvedor Back-end."],
+                strings: ["Software Developer.", "Desenvolvedor de Software."],
                 autoStart: true,
                 loop: true,
                 skipAddStyles: true,
